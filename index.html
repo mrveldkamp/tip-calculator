@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tip Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div>
+    <h1>Tip Calculator</h1>
+    <hr>
+
+    <p>Fill in the values below, then click "Calc Tip" to calculate how much tip each person should pay.</p>
+    <p>Bill Amount ($): <input id='bill-amt' type="number"></p>
+    <p>Tip Percentage (%): <input id='tip-perc' type="number"></p>
+    <p>Number of People: <input id='num-people' type="number"></p>
+    <p><button id="calc-btn">Calc Tip</button></p>
+    <hr>
+
+    <p>Each person should tip: $<span id="tip-amt">-----</span></p>
+  </div>
+
+  <!-- Load JavaScript -->
+  <script src='main.js'></script>
+</body>
+
+</html>
