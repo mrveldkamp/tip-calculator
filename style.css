@@ -1,14 +1,14 @@
 body {
   background-color: maroon;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 div {
   background-color: white;
-  width: 80%;
+  max-width: 400px;
   margin: auto;
-  padding: 4% 5%;
+  padding: 25px 30px;
   border-radius: 15px;
 }
 
@@ -16,19 +16,20 @@ h1 {
   color: maroon;
 }
 
-input, span {
+input,
+span {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1.25rem;
+  font-size: 20px;
 }
 
 input {
-  width: 20%;
+  width: 75px;
 }
 
 button {
   background-color: gold;
   padding: 5px 10px;
-  font-size: 1.15rem;
+  font-size: 18px;
   letter-spacing: 1.5px;
   border-radius: 10px;
 }
